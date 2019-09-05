@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(multimedia/raincloud.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    padding: 1em 5%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn{
+    border: 1px solid black;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.btn1{
+    border-radius: 1em;
+    background: green;
+    color: white;
+    padding: 1em;
+    border:solid 1px transparent;
+}
+
+.btn2{
+    border-radius: 1em;
+    background: green;
+    color: white;
+    border:solid 1px transparent;
+}
+
+.btn3{
+    border-radius: 1em;
+    background: orange;
+    border:solid 1px transparent;
+}
+
+.logos>img{
+    
+}
