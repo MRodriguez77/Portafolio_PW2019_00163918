@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     background-image: url(multimedia/raincloud.jpg);
     background-attachment: fixed;
@@ -13,42 +13,93 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
-.btn{
-    border: 1px solid black;
-}
-
 nav{
     width: 100%;
-    height: auto;
-    
+    height: auto; 
     display: flex;
-
     flex-flow: row wrap;
     justify-content: flex-end;
 }
+h1{
+    font-size: 7.5em;
+    color: lightblue;
+}
 
-.btn1{
+hr{
+    height: 10px;
+    width: 95%;
+    display: flex;
+    background-color:lightblue;
+    align-items: flex-end;
+}
+
+button.btn{
     border-radius: 1em;
-    background: green;
-    color: white;
     padding: 1em;
-    border:solid 1px transparent;
+    box-shadow: 0px;
+    opacity: 0.8;
+}
+button.btn:hover{
+    opacity: 1.0;
 }
 
-.btn2{
-    border-radius: 1em;
+button.btn.one{
     background: green;
+    border-color: green;
     color: white;
-    border:solid 1px transparent;
+}
+button.btn.two{
+    background: green;
+    border-color: green;
+    color: white;
+}
+button.btn.three{
+    background: orange;
+    border-color: orange;
+
 }
 
-.btn3{
-    border-radius: 1em;
-    background: orange;
-    border:solid 1px transparent;
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .logos>img{
-    
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    margin: 0.5em;
+    border-collapse: collapse;
+    border:1px solid black;
+
+}
+}
+.logos>img:hover{
+    opacity: 0.8;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: transparent;
+}
+a{
+    color:white;
 }
