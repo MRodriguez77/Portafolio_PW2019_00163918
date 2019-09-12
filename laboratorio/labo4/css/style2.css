@@ -1,0 +1,65 @@
+.deep {
+  background: #673AB7;
+}
+
+.indigo {
+  background: #3F51B5;
+}
+
+.red {
+  background: #D81B60;
+}
+
+.logos > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+main {
+  width: 50%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  padding: 1em 5%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style2.css.map */

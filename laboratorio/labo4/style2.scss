@@ -1,0 +1,26 @@
+@import "variables";
+@import "mixins";
+
+.deep{
+    background: $color-btn1;
+}
+
+.indigo{
+    background: $color-btn2; 
+}
+
+.red{
+    background: $color-btn3;
+}
+
+.logos>img{
+    @include logos-img();
+}
+
+main{
+    @include main();
+}
+
+body{
+    @include body();
+}
