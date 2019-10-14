@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Slabo+27px&display=swap');
+
+body{
+    background-color: black;
+    color: white; 
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color:orange ; 
+    position: static;
+    width: auto;
+    height:auto;
+    display: flex;
+    margin-top: 1em;
+}
+
+
+
+
+.me{
+    width: 250px;
+    margin: 1.5em;
+}
+
+
