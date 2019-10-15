@@ -1,32 +1,135 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Slabo+27px&display=swap');
 
+*, ::before, ::after{
+    box-sizing: border-box;
+    font-size: calc(0.5rem + 1vh);
+}
+
+/*preferencias del body */
 body{
-    background-color: black;
+    background-color: #00363a;
     color: white; 
     font-family: 'Oxygen', sans-serif;
+    text-align: center;
     
 }
 
-.header{
-    display:flex;
-    justify-content: center;
+/* aspecto del encabezado h1 de la pagina*/
+h1{
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
-.menu {
-    background-color:orange ; 
-    position: static;
-    width: auto;
-    height:auto;
-    display: flex;
-    margin-top: 1em;
-}
-
-
-
-
+/* propiedades de la foto de perfil */
 .me{
     width: 250px;
     margin: 1.5em;
+    margin-top: 4em;
 }
 
+/* encabezado de la foto de perfil */
+.perfil>h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
 
+/* area principal y su personalizacion */
+.big-area{
+    height: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;  
+    margin-top: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    background-color: #006064;
+}
+
+/* preferencias de la zona que contiene las publicaciones y la foto de perfil*/
+.container_art{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+}
+
+/* encabezado de la zona contenedora */
+.container_art h2{
+    margin-bottom: 3em;
+}
+
+/* personalizacion de la zona del contenido de los equipos*/
+.narrativa{
+    display: flex;
+    width: 80%;
+    min-width: 300px;
+    height: auto;
+    position: relative;
+    margin-top: 2em;
+}
+
+/* estilo del encabezado de los dias */
+.narrativa h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* personalizacion de la barra utilizada como menu*/
+.btn{
+    width: 20%;
+    height: 6rem;
+    min-width: 15%;
+    text-align: center;
+    cursor: pointer;
+    background:#00363a;
+    color: white;
+    margin-top: 1em;
+}
+
+/* estilo del texto de los parrafos en los dias*/
+.btn p{
+    text-align: left;
+    line-height: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* preferencias del contenedor con la informacion de los equipos*/
+.article{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: auto;
+    width: auto;
+    background: #0AC693;
+    padding: 10px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+/* diseño de las imagenes en las publicaciones */
+.container_art img{
+    width: 15rem;
+    height: 14rem;
+    min-width: 100px;
+    float: left;
+}
+
+/* clases de js*/
+
+.btn.sky{
+    background: #0AC693;
+}
+
+.btn.close .article{
+    display: none;
+}
