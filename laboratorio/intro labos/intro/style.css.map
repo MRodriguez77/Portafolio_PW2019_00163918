@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AASA,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EAEb,MAAM,EARK,GAAG,CAAC,KAAK,CADT,IAAI;EAUf,UAAU,EAdE,OAAO;EAenB,KAAK,EAbI,KAAK;CAcjB;;AAED,AAAA,CAAC,CAAA;EACG,OAAO,EAZE,GAAG;CAcf",
-    "sources": [
-        "../laboratorio/labo4/eje1/style.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
